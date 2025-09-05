@@ -1,4 +1,3 @@
-````markdown
 # Übung: Von der Transaktion zur Blockchain  
 
 Dieses Projekt ist eine Übungsaufgabe im Rahmen des Blockchain-Kurses.  
