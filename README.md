@@ -1,3 +1,8 @@
+Супер 🙌 Ниже готовый `README.md` для твоего проекта **my-blockchain-uebung1**. Я сделал его компактным, но аккуратным и профессиональным.
+
+---
+
+````markdown
 # Übung: Von der Transaktion zur Blockchain  
 
 Dieses Projekt ist eine Übungsaufgabe im Rahmen des Blockchain-Kurses.  
@@ -36,3 +41,35 @@ Im Projektordner:
 ```bash
 npm install
 npm start
+````
+
+---
+
+## 💡 Erwartete Konsolenausgaben
+
+```
+Transaktion signiert und gültig.
+Manipulierte Transaktion ungültig!
+Genesis-Block erstellt.
+Neuer Block hinzugefügt.
+prevHash korrekt gesetzt? true
+Blockchain valid: true
+```
+
+*(Zusatz-Minicheck: Wenn man einen Block-Header verändert, liefert `isValid()` → `false`.)*
+
+---
+
+## 📂 Projektstruktur
+
+```
+my-blockchain-uebung1/
+│── package.json
+│── utils.js
+│── transaction.js
+│── mempool.js
+│── block.js
+│── blockchain.js
+│── testBlockchain.js
+│── README.md
+```
