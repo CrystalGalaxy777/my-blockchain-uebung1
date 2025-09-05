@@ -1,0 +1,12 @@
+{
+  "name": "my-blockchain",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "testBlockchain.js",
+  "scripts": {
+    "start": "node testBlockchain.js"
+  },
+  "dependencies": {
+    "elliptic": "^6.5.4"
+  }
+}
