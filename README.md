@@ -68,3 +68,10 @@ my-blockchain-uebung1/
 │── testBlockchain.js
 │── README.md
 ```
+---
+
+## 💻 Beispielausgabe
+
+So sieht die Konsolenausgabe aus:
+
+![Console Output](screenshot.png)
