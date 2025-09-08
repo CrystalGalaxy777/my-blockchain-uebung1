@@ -1,5 +1,4 @@
 # Übung: Von der Transaktion zur Blockchain  
-# Übung: Von der Transaktion zur Blockchain  
 
 [![Node.js](https://img.shields.io/badge/Node.js-%3E=18-green)](https://nodejs.org/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
