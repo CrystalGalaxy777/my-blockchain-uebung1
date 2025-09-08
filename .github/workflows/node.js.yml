@@ -1,0 +1,42 @@
+name: Node.js CI
+
+# EN: Run workflow on every push and pull request to "main"
+# DE: Workflow läuft bei jedem Push und Pull Request auf "main"
+# RU: Запускать workflow при каждом push и pull request в ветку "main"
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    # EN: Checkout repository code
+    # DE: Repository-Code auschecken
+    # RU: Получаем код репозитория
+    - uses: actions/checkout@v3
+
+    # EN: Set up Node.js
+    # DE: Node.js einrichten
+    # RU: Устанавливаем Node.js
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    # EN: Install dependencies
+    # DE: Abhängigkeiten installieren
+    # RU: Устанавливаем зависимости
+    - run: npm install
+
+    # EN: Run tests
+    # DE: Tests ausführen
+    # RU: Запускаем тесты
+    - run: npm test
