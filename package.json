@@ -8,7 +8,7 @@
     "start": "node testBlockchain.js",
     "tx": "node transaction.js",
     "nonceTest": "node testNonce.js",
-    "test": "node testBlockchain.js",
+    "test": "node test/basic.test.js",
     "clean": "rimraf node_modules && echo Done"
   },
   "keywords": [

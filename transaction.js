@@ -61,3 +61,16 @@ export function generateKeyPair() {
   const pubKey = key.getPublic(true, "hex"); // komprimiert
   return { privateKey, pubKey };
 }
+
+// Re-exports for tests (keep test imports stable)
+// EN: Re-export utils under the names used in tests
+// DE: Re-export der Utils unter den in Tests verwendeten Namen
+// RU: Переэкспорт утилит под теми именами, которые ждут тесты
+export { serializeDeterministic as serializeTx, sha256Hex as sha256 } from "./utils.js";
+
+// Explicit exports of class & helper
+// EN: Make Transaction and generateKeyPair importable too
+// DE: Transaction und generateKeyPair ebenfalls exportieren
+// RU: Экспортируем также Transaction и generateKeyPair
+export { Transaction, generateKeyPair };
+
