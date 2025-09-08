@@ -1,15 +1,42 @@
-# Node.js dependencies
+# ---------- Node.js dependencies ----------
+# EN: Ignore installed dependencies (reinstallable via npm/yarn)
+# DE: Ignoriere installierte Abhängigkeiten (mit npm/yarn neu installierbar)
+# RU: Игнорировать установленные зависимости (можно восстановить через npm/yarn)
 node_modules/
+
+# EN: Common debug logs for npm
+# DE: Übliche Debug-Logs von npm
+# RU: Логи от npm
 npm-debug.log
+
+# EN: Common error logs for Yarn
+# DE: Übliche Fehler-Logs von Yarn
+# RU: Логи ошибок Yarn
 yarn-error.log
 
-# Editor / OS junk
+
+# ---------- Editor / OS junk ----------
+# EN: macOS system file (should not be in repo)
+# DE: macOS Systemdatei (gehört nicht ins Repo)
+# RU: Служебный файл macOS (не должен попадать в репозиторий)
 .DS_Store
+
+# EN: Windows thumbnail cache
+# DE: Windows Thumbnail-Cache
+# RU: Кэш миниатюр Windows
 Thumbs.db
 
-# Logs
+
+# ---------- Logs ----------
+# EN: Any generic log files
+# DE: Beliebige generische Log-Dateien
+# RU: Любые лог-файлы
 *.log
 
-# Optional: lock files (оставь, если учитель хочет видеть точные версии)
+
+# ---------- Optional: lock files ----------
+# EN: Keep if you want exact dependency versions (e.g. for teaching)
+# DE: Behalten, falls exakte Versionsstände benötigt (z. B. im Kurs)
+# RU: Оставить, если нужно зафиксировать версии зависимостей (например, для учёбы)
 package-lock.json
 yarn.lock

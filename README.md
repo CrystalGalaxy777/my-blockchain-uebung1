@@ -1,7 +1,24 @@
 # Übung: Von der Transaktion zur Blockchain  
+# Übung: Von der Transaktion zur Blockchain  
 
-Dieses Projekt ist eine Übungsaufgabe im Rahmen des Blockchain-Kurses.  
+[![Node.js](https://img.shields.io/badge/Node.js-%3E=18-green)](https://nodejs.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Build Status](https://img.shields.io/badge/build-passing-success)](#)  
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/my-blockchain-uebung1?style=social)](https://github.com/CrystalGalaxy777/my-blockchain-uebung1)
+
+---
+
+
+> **Hinweis / Note / Примечание:**  
+> - **DE:** Dieses Repository ist eine **Übungsaufgabe** im Rahmen des Blockchain-Kurses.  
+> - **EN:** This repository is an **exercise repo** for practicing blockchain basics.  
+> - **RU:** Этот репозиторий — **учебный проект** для практики по блокчейну.
+
+
 Ziel: **Von der Transaktion → über Mempool → in einen Block → zur Blockchain**.  
+Dies ist ein *Exercise Repo* (Lern-Sandbox) und enthält auch **TODOs & Experimente**.  
+Die saubere, portfolio-taugliche Version befindet sich im Projekt [`my-blockchain`](../my-blockchain).  
+
 
 ---
 

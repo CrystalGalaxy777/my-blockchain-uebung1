@@ -1,13 +1,32 @@
 {
-  "name": "my-blockchain",
+  "name": "my-blockchain-uebung1",
   "version": "1.0.0",
+  "description": "Übungsrepo: Von der Transaktion über Mempool in einen Block zur Blockchain.",
   "type": "module",
   "main": "testBlockchain.js",
   "scripts": {
     "start": "node testBlockchain.js",
-    "nonceTest": "node testNonce.js"
+    "tx": "node transaction.js",
+    "nonceTest": "node testNonce.js",
+    "test": "node testBlockchain.js",
+    "clean": "rimraf node_modules && echo Done"
+  },
+  "keywords": [
+    "blockchain",
+    "exercise",
+    "mempool",
+    "pow",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "elliptic": "^6.5.4"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.0"
   }
 }
