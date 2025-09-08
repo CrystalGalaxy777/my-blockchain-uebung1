@@ -8,5 +8,9 @@
   },
   "dependencies": {
     "elliptic": "^6.5.4"
+  },
+  "scripts": {
+  "start": "node testBlockchain.js",
+  "nonceTest": "node testNonce.js"
   }
 }

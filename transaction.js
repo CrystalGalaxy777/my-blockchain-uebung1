@@ -1,6 +1,7 @@
 // transaction.js
 import { serializeDeterministic, sha256Hex } from "./utils.js";
-import elliptic from "elliptic";   // правильный импорт в ES Module
+// import { ec as EC } from "elliptic"; Aufgabentext
+import elliptic from "elliptic";   // правильный импорт в ES Module; richtige Import ES Module
 
 const EC = elliptic.ec;
 const ec = new EC("secp256k1");
