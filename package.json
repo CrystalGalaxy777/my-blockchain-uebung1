@@ -4,13 +4,10 @@
   "type": "module",
   "main": "testBlockchain.js",
   "scripts": {
-    "start": "node testBlockchain.js"
+    "start": "node testBlockchain.js",
+    "nonceTest": "node testNonce.js"
   },
   "dependencies": {
     "elliptic": "^6.5.4"
-  },
-  "scripts": {
-  "start": "node testBlockchain.js",
-  "nonceTest": "node testNonce.js"
   }
 }
