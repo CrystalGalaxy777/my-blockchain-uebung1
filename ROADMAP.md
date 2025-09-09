@@ -1,8 +1,8 @@
 # ROADMAP – My Blockchain Project  
 
-> **EN:** Learning roadmap from basic cryptography to blockchain & smart contracts.  
-> **DE:** Lernfahrplan von Kryptographie-Grundlagen bis Blockchain & Smart Contracts.  
-> **RU:** Учебная дорожная карта от криптографии до блокчейна и смарт-контрактов.  
+- **EN:** Learning roadmap from basic cryptography to blockchain & smart contracts.    
+- **DE:** Lernfahrplan von Kryptographie-Grundlagen bis Blockchain & Smart Contracts.    
+- **RU:** Учебная дорожная карта от криптографии до блокчейна и смарт-контрактов.  
 
 ---
 
